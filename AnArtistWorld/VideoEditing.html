@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Editing</title>
+    <link rel="stylesheet" href="softwarecards.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="categoryName3"></h1>
+        <p id="categoryDescription3"></p>
+        <h5>Skills:</h5>
+        <h4 id=categoryskills3></h4>
+        <h5>Software:</h5>
+        <h4 id="categoryproducts3"></h4>
+        <h5>Courses:</h5>
+        <h4><a href="https://www.mygreatlearning.com/academy/learn-for-free/courses/video-editing-basics">Video Editing Basics</a></h4>
+        <button id="btn" onclick="backButton()">BACK</button>
+    </div>
+    <script src="categories.js">
+    </script>
+</body>
+<script>
+    function backButton() {
+        window.location.href = "allinOne.html";
+    
+       }
+        document.getElementById("categoryName3").textContent = category3.name;
+        document.getElementById("categoryDescription3").textContent = category3.description;
+        document.getElementById("categoryskills3").textContent = category3.skills;
+        document.getElementById("categoryproducts3").textContent = category3.products;
+    </script>
+    
+    
+</html>

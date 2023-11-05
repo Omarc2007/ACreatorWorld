@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance Choreography and Visulazation</title>
+    <link rel="stylesheet" href="softwarecards.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="categoryName4"></h1>
+        <p id="categoryDescription4"></p>
+        <h5>Skills:</h5>
+        <h4 id=categoryskills4></h4>
+        <h5>Software:</h5>
+        <h4 id="categoryproducts4"></h4>
+        <h5>Courses: </h5>
+        <h4><a href=https://youtube.com/playlist?list=PLrWimOT8u8ndVv5uMjQkltj8rGYY7mLKx&si=dsS2ZBQFLM2RI_bG>Online Dance Class</a></h4>
+        <button id="btn" onclick="backButton()">BACK</button>
+    </div>
+    <script src="categories.js">
+    </script>
+</body>
+<script>
+    function backButton() {
+        window.location.href = "allinOne.html";
+    
+       }
+        document.getElementById("categoryName4").textContent = category4.name;
+        document.getElementById("categoryDescription4").textContent = category4.description;
+        document.getElementById("categoryskills4").textContent = category4.skills;
+        document.getElementById("categoryproducts4").textContent = category2.products;
+    </script>
+    
+    
+</html>

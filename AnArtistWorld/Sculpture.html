@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sculpture</title>
+    <link rel="stylesheet" href="softwarecards.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="categoryName5"></h1>
+        <p id="categoryDescription5"></p>
+        <h5>Skills:</h5>
+        <h4 id=categoryskills5></h4>
+        <h5>Software:</h5>
+        <h4 id="categoryproducts5"></h4>
+        <h5>Courses: </h5>
+        <h4><a href="https://www.udemy.com/topic/3d-modeling/free/">Udemy Free 3D Modeling Courses</a></h4>
+        <button id="btn" onclick="backButton()">BACK</button>
+    </div>
+    <script src="categories.js">
+    </script>
+</body>
+<script>
+    function backButton() {
+        window.location.href = "allinOne.html";
+    
+       }
+        document.getElementById("categoryName5").textContent = category5.name;
+        document.getElementById("categoryDescription5").textContent = category5.description;
+        document.getElementById("categoryskills5").textContent = category5.skills;
+        document.getElementById("categoryproducts5").textContent = category5.products;
+    </script>
+    
+    
+</html>

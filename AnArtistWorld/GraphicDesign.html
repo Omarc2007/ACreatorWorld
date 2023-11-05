@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Design and Digital Art</title>
+    <link rel="stylesheet" href="softwarecards.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="categoryName1"></h1>
+        <p id="categoryDescription1"></p>
+        <h5>Skills:</h5>
+        <h4 id=categoryskills1></h4>
+        <h5>Software:</h5>
+        <h4 id="categoryproducts1"> </h4>
+        <h5>Courses: </h5>
+        <h4><a href="https://www.coursera.org/specializations/graphic-design#enroll">CALARTS Graphic Design Specialization </a></h4>
+        <button id="btn" onclick="backButton()">BACK</button>
+    </div>
+    <script src="categories.js">
+    </script>
+</body>
+<script>
+    function backButton() {
+        window.location.href = "allinOne.html";
+    
+       }
+        document.getElementById("categoryName1").textContent = category1.name;
+        document.getElementById("categoryDescription1").textContent = category1.description;
+        document.getElementById("categoryskills1").textContent = category1.skills;
+        document.getElementById("categoryproducts1").textContent = category1.products;
+    </script>
+    
+    
+</html>

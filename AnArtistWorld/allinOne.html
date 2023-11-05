@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One For All Creators</title>
+    <link rel="stylesheet" href="allinone.css">
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="row">
+        <div class="container">
+            <button class="btn" onclick="GraphicDesignPage()">
+                <h2 id="categoryName1"></h2>
+            </button>
+        </div>        
+        <div class="container">
+            <button class="btn" onclick="AudioWorkStationPage()">
+            <h2 id="categoryName2"></h2>
+        </button>
+        </div>
+        <div class="container">
+            <button class="btn" onclick="VideoEditingPage()">
+            <h2 id="categoryName3"></h2>
+        </button>
+        </div>
+    </div>
+        <div class="row">
+        <div class="container">
+            <button class="btn" onclick="ChoreographyPage()">
+            <h2 id="categoryName4"></h2>
+        </button>
+        </div>
+        <div class="container">
+            <button class="btn" onclick="SculpturePage()">
+            <h2 id="categoryName5"></h2>
+        </button>
+        </div>
+    </div>
+</div>
+</body>
+<script src = "categories.js">
+    document.getElementById("categoryName1").textContent = category1.name;
+</script>
+
+<script>
+    function GraphicDesignPage() {
+         window.location.href = "GraphicDesign.html";
+ 
+        }
+        function AudioWorkStationPage() {
+         window.location.href = "AudioWorkStation.html";
+ 
+        }
+        function VideoEditingPage() {
+         window.location.href = "VideoEditing.html";
+ 
+        }
+        function ChoreographyPage() {
+         window.location.href = "DanceChoreography.html";
+ 
+        }
+        function SculpturePage() {
+         window.location.href = "Sculpture.html";
+ 
+        }
+        document.getElementById("categoryName1").textContent = category1.name;
+        document.getElementById("categoryName2").textContent = category2.name;
+        document.getElementById("categoryName3").textContent = category3.name;
+        document.getElementById("categoryName4").textContent = category4.name;
+        document.getElementById("categoryName5").textContent = category5.name;
+</script>
+</html>

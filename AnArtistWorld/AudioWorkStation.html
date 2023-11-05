@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Audio WorkStation</title>
+    <link rel="stylesheet" href="softwarecards.css">
+</head>
+<body>
+    <script src="categories.js"></script>
+    <div class="container">
+        <h2 id="categoryName2"></h2>
+        <p id="categoryDescription2"></p>
+        <h5>Skills: </h5>
+        <h4 id="categoryskills2"></h4>
+        <h5>Software: </h5>
+        <h4 id="categoryproducts2"></h4>
+        <h5>Courses: </h5>
+        <h4><a href="https://courses.noiselab.io/courses">NoiseLab</a></h4>
+        <button id="btn" onclick="backButton()">BACK</button>
+    </div>
+    <script type="text/javascript" src="categories.js"></script>
+</body>
+<script>
+    function backButton() {
+        window.location.href = "allinOne.html";
+    
+       }
+       document.getElementById("categoryName2").textContent = category2.name;
+       document.getElementById("categoryDescription2").textContent = category2.description;
+       document.getElementById("categoryskills2").textContent = category2.skills;
+       document.getElementById("categoryproducts2").textContent = category2.products;
+    </script>
+    
+</body>
+</html>

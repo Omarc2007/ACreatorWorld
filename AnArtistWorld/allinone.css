@@ -1,0 +1,51 @@
+.maincontainer {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    grid-column-gap:20px;
+
+}
+.row {
+  display:flex;
+  justify-content: space-around;
+  flex: 1;
+  width: 100%;
+  margin: 10px;
+}
+.container {
+      flex: 0 1 calc(40% - 10px);
+      margin: 0 5px;
+}
+.btn {
+      align-items: center;
+      appearance: none;
+      background-color: #fff;
+      border-radius: 24px;
+      border-style: none;
+      box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+      box-sizing: border-box;
+      color: #3c4043;
+      cursor: pointer;
+      display: inline-flex;
+      fill: currentcolor;
+      font-family: "Google Sans",Arial,sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      height: 64px;
+      justify-content: center;
+      letter-spacing: .25px;
+      line-height: normal;
+      max-width: 100%;
+      overflow: visible;
+      padding: 2px 24px;
+      position: relative;
+      text-align: center;
+      text-transform: none;
+      width: auto;
+      z-index: 0;
+    }
+    body{
+    background-image: url("allinone.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
